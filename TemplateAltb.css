@@ -1,0 +1,252 @@
+		
+		/* COLOUR SCHEME */ 
+		/* BLACK  	#000000 */
+		/* DARK GREY  	#616161 */
+		/* BLUE		#0773d8 */
+		/* LIGHT GREY	#C3C3C3 */ 
+		/* WHITE 	#FFFFFF */
+		
+		/*GENERAL CSS*/
+	body{
+		background-color: #616161; /*MARGIN COLOUR*/
+		word-spacing: inherit;
+		}
+	
+	h1 {
+		font: 20px Castellar, Arial;
+		text-align: center;
+		color: #0773d8;
+		padding: 1em;
+		}
+	p {
+		font: 16px Rockwell Nova, Arial;
+		text-align: left;
+		color: #000000;
+		}
+	
+	img {
+		width:350px;
+		height:330px;
+		}
+
+	img:hover{
+		opacity: 0.7;
+		}
+				
+		/*NAVBAR CSS*/
+	.nav {	
+		background-color: #000000;					
+		font: 15px Castellar, Arial;
+		margin-top: 0px;	
+		margin-bottom: 0px;
+		margin-left: 0px;
+		margin-right: 0px;				
+		word-spacing: 150px;
+		text-align: center;
+		list-style: none;
+		}
+	
+	.nav li {
+		display: inline-block;
+		}
+	
+	.nav li a {
+		text-decoration: none;
+		color: #0773d8;
+		}
+				
+	.nav li a:hover {
+		color: #C3C3C3;
+		}
+				
+		/*DIV TAG CSS*/
+	div.container{
+		margin: 30px;
+		width: 1200px;
+		}
+				
+	div.nav {
+		width: 1157px;
+		clear: left;
+		border: 1px solid #0773d8;
+		padding: 1em;
+		}
+					
+		/*HEADER AND FOOTER CSS*/
+	header, footer {
+		background-color: #000000;
+		width: 1155px; 
+		text-align: center;
+		color: #FFFFFF;
+		border: 1px solid #0773d8;
+		padding: 1em;
+		clear: both;
+		margin-bottom: 10px;
+		margin-left: 0px;
+		}
+							
+
+		/*IMAGE 1 TOP LEFT*/	/*SECTION 1*/
+	.text1{
+		float: left;
+		clear: left;
+		width: 357px;
+    		height: 360px;
+		padding: 1em;
+    		background: #e4e4e4;
+    		border: 1px solid #0773d8;
+		margin-bottom: 10px;
+		margin-right: 4px;
+		}	
+	
+		/*TEXT BOX TOP CENTER*/		/*SECTION 2*/
+	.text2{
+		float: left;
+		width: 357px;
+    		height: 360px;
+		padding: 1em;
+    		background: #e4e4e4;
+    		border: 1px solid #0773d8;
+		margin-bottom: 10px;
+		margin-left: 4px;
+		margin-right: 4px;
+		}
+	
+		/*IMAGE 2 TOP RIGHT*/	/*SECTION 3*/
+	.text3{
+		float: left;
+		width: 357px;
+    		height: 360px;
+		padding: 1em;
+    		background: #e4e4e4;
+    		border: 1px solid #0773d8;
+		margin-bottom: 10px;
+		margin-left: 4px;
+		}
+	
+		/*BOX MIDDLE LEFT*/	/*SECTION 4*/
+	.text4{
+		float: left;
+		width: 357px;
+    		height: 360px;
+		padding: 1em;
+    		background: #e4e4e4;
+    		border: 1px solid #0773d8;
+		margin-bottom: 10px;
+		margin-right: 4px;
+		}
+	
+		/*BOX MIDDLE CENTER*/	/*SECTION 5*/
+	.text5{
+		float: left;
+		width: 357px;
+    		height: 360px;
+		padding: 1em;
+    		background: #e4e4e4;
+    		border: 1px solid #0773d8;
+		margin-bottom: 10px;
+		margin-left: 4px;
+		margin-right: 4px;
+		}
+
+		/*BOX MIDDLE RIGHT*/	/*SECTION 6*/
+	.text6{
+		float: left;
+		width: 357px;
+    		height: 360px;
+		padding: 1em;
+    		background: #e4e4e4;
+    		border: 1px solid #0773d8;
+		margin-bottom: 10px;
+		margin-left: 4px;
+		}
+		/*OPENING TIMES BOTTOM LEFT*/	/*SECTION 7*/	
+	div.times {
+		float:left;
+    		width: 357px;
+    		height: 360px;
+    		border: 1px solid #0773d8;
+		background-color: #e4e4e4;
+		font: 8px;
+		text-align: center;
+		color: #000000;
+		padding: 1em;
+		margin-right: 4px; 
+		}
+
+		/*MAP*/	
+	iframe{
+		float: left;
+		width: 347px;
+		height: 250px;
+		border: 1px solid #000000;
+		background-color: #e4e4e4;
+		}
+
+		/*CALENDAR BOTTOM CENTER*/	/*SECTION 8*/
+	form {
+		float: left;
+		width:398px;
+		height:360px;
+		}
+		
+	.calendar {
+		float: left;
+		clear: both;
+    		width: 357px;
+    		height: 360px;
+    		border: 1px solid #0773d8;
+		background-color: #ffffff;
+		font: 12px;
+		text-align: center;
+		color: #9177AC;
+		padding: 1em;
+		margin-left: 4px; 
+		}
+
+		/*BOX*/
+	.main {
+		width:347px;
+		height: 340px;
+		border:1px solid #000000;
+		}
+
+		/*SMTWTFS STYLING*/
+	.month {
+		background-color: #000000;
+		font: bold 12px Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		color: #0773d8;
+		}
+	.daysofweek {
+		background-color:#616161;
+		font:bold 12px Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		color: #FFFFFF;
+		}
+				
+		/*MONTH DATES*/					
+	.days {
+		font-size: 12px;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		color: #341456;
+		background-color: #e4e4e4;
+		}
+				
+		/*HIGHLIGHTED DATE*/
+	.days #today{
+		font-weight: bold;
+		color: #0773d8;
+		}
+				
+		/*CONTACT FORM BOTTOM RIGHT*/	/*SECTION 9*/
+	div.contact {
+		text-align: left;
+    		padding: 1em;
+    		float: left;
+    		width: 357px;
+    		height: 360px;
+    		background: #e4e4e4;
+    		border: 1px solid #0773d8;
+		margin-left: 4px;
+		margin-right: 4px;
+		margin-bottom: 10px;
+		}
