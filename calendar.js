@@ -1,6 +1,4 @@
 //Javascript
-
-	
 	function buildCal(m, y, cM, cH, cDW, cD, brdr)
 		{
 			var mn=['January','February','March','April','May','June','July','August','September','October','November','December'];
